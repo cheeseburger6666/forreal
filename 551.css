@@ -1,20 +1,20 @@
-	.aaab{
-			align=center;
-			background-color:black;
-		}
-	.aaac img{
+	.pic{overflow:hidden;}
+	.pic img{transform:scale(1,1);transition: all 0.5s ease-out;}
+	.pic img:hover{transform:scale(1.2,1.2);}
+	
+	.bgstory img{
 			float: right;
 			margin-right: 100px;
 			width: 338px;
 		}
-	.aaac p{
+	.bgstory p{
 			width: 700px;
 			height: 500px;
 			color: DimGray;
 			overflow: hidden;
 			margin-left: 30px;
 	}
-	.aaad{
+	.liltitles{
 			color:DarkSlateGray;
 			margin-left: 30px;
 		}
@@ -219,166 +219,164 @@
 
 	
 
-.login{
-	width: 650px;
-	position: relative;
-	margin-top: 50px;
-	margin-left:25px;
-}
-.login input{
-	outline: none;
-	border: none;
-	width: 100%;
-	padding: 10px 0;
-	color: #000;
-	font-size: 20px;
-	border-bottom: 1px solid black;
-	background: none;
-}
-#aa1:focus{
-		border-color:steelblue;
-		color:black;
+	.login{
+		width: 650px;
+		position: relative;
+		margin-top: 50px;
+		margin-left:25px;
 	}
-.login label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #000;
-	font-size: 18px;
-	pointer-events: none;
-	transition: all 0.3s;
-}
-
-.login input:focus + label,
-.login input:valid + label{
-	font-size: 15px;
-	top: -20px;
-	color: steelblue;
-	
-}
-
-
-
-
-
-.ogin{
-	width: 650px;
-	position: relative;
-	margin-top: 50px;
-	margin-left:25px;
-}
-.ogin input{
-	outline: none;
-	border: none;
-	width: 100%;
-	padding: 10px 0;
-	color: #000;
-	font-size: 20px;
-	border-bottom: 1px solid black;
-	background: none;
-}
-#aa2:focus{
-		border-color:green;
-		color:black;
+	.login input{
+		outline: none;
+		border: none;
+		width: 100%;
+		padding: 10px 0;
+		color: #000;
+		font-size: 20px;
+		border-bottom: 1px solid black;
+		background: none;
 	}
-.ogin label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #000;
-	font-size: 18px;
-	pointer-events: none;
-	transition: all 0.3s;
-}
-
-.ogin input:focus + label,
-.ogin input:valid + label{
-	font-size: 15px;
-	top: -20px;
-	color: green;
-	
-}
-
-
-.gin{
-	width: 650px;
-	position: relative;
-	margin-top: 50px;
-	margin-left:25px;
-}
-.gin input{
-	outline: none;
-	border: none;
-	width: 100%;
-	padding: 10px 0;
-	color: #000;
-	font-size: 20px;
-	border-bottom: 1px solid black;
-	background: none;
-}
-#aa3:focus{
-		border-color:hotpink;
-		color:black;
+	#aa1:focus{
+			border-color:steelblue;
+			color:black;
+		}
+	.login label{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #000;
+		font-size: 18px;
+		pointer-events: none;
+		transition: all 0.3s;
 	}
-.gin label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #000;
-	font-size: 18px;
-	pointer-events: none;
-	transition: all 0.3s;
-}
 
-.gin input:focus + label,
-.gin input:valid + label{
-	font-size: 15px;
-	top: -20px;
-	color: hotpink;
-	
-}
+	.login input:focus + label,
+	.login input:valid + label{
+		font-size: 15px;
+		top: -20px;
+		color: steelblue;
 
-
-.in{
-	width: 650px;
-	position: relative;
-	margin-top: 50px;
-	margin-left:25px;
-}
-.in input{
-	outline: none;
-	border: none;
-	width: 100%;
-	padding: 10px 0;
-	color: #000;
-	font-size: 20px;
-	border-bottom: 1px solid black;
-	background: none;
-}
-#aa4:focus{
-		border-color:orange;
-		color:black;
 	}
-.in label{
-	position: absolute;
-	top: 0;
-	left: 0;
-	color: #000;
-	font-size: 18px;
-	pointer-events: none;
-	transition: all 0.3s;
-}
 
-.in input:focus + label,
-.in input:valid + label{
-	font-size: 15px;
-	top: -20px;
-	color: orange;
+
+
+
+
+	.ogin{
+		width: 650px;
+		position: relative;
+		margin-top: 50px;
+		margin-left:25px;
+	}
+	.ogin input{
+		outline: none;
+		border: none;
+		width: 100%;
+		padding: 10px 0;
+		color: #000;
+		font-size: 20px;
+		border-bottom: 1px solid black;
+		background: none;
+	}
+	#aa2:focus{
+			border-color:green;
+			color:black;
+		}
+	.ogin label{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #000;
+		font-size: 18px;
+		pointer-events: none;
+		transition: all 0.3s;
+	}
+
+	.ogin input:focus + label,
+	.ogin input:valid + label{
+		font-size: 15px;
+		top: -20px;
+		color: green;
+
+	}
+
+
+	.gin{
+		width: 650px;
+		position: relative;
+		margin-top: 50px;
+		margin-left:25px;
+	}
+	.gin input{
+		outline: none;
+		border: none;
+		width: 100%;
+		padding: 10px 0;
+		color: #000;
+		font-size: 20px;
+		border-bottom: 1px solid black;
+		background: none;
+	}
+	#aa3:focus{
+			border-color:hotpink;
+			color:black;
+		}
+	.gin label{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #000;
+		font-size: 18px;
+		pointer-events: none;
+		transition: all 0.3s;
+	}
+
+	.gin input:focus + label,
+	.gin input:valid + label{
+		font-size: 15px;
+		top: -20px;
+		color: hotpink;
+
+	}
+
+
+	.in{
+		width: 650px;
+		position: relative;
+		margin-top: 50px;
+		margin-left:25px;
+	}
+	.in input{
+		outline: none;
+		border: none;
+		width: 100%;
+		padding: 10px 0;
+		color: #000;
+		font-size: 20px;
+		border-bottom: 1px solid black;
+		background: none;
+	}
+	#aa4:focus{
+			border-color:orange;
+			color:black;
+		}
+	.in label{
+		position: absolute;
+		top: 0;
+		left: 0;
+		color: #000;
+		font-size: 18px;
+		pointer-events: none;
+		transition: all 0.3s;
+	}
+
+	.in input:focus + label,
+	.in input:valid + label{
+		font-size: 15px;
+		top: -20px;
+		color: orange;
+
+	}
+
+
 	
-}
-
-
-.pic{overflow:hidden;}
-.pic img{transform:scale(1,1);transition: all 0.5s ease-out;}
-.pic img:hover{transform:scale(1.2,1.2);}
 
