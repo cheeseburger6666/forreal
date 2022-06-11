@@ -65,7 +65,7 @@
 
 
 
-	.glitch {
+	.shapa {
 	
 	  font-size: 5rem;
 	  font-weight: bold;
@@ -78,7 +78,7 @@
 	  animation: glitch 725ms infinite;
 	}
 
-	.glitch span {
+	.shapa span {
 		  position: absolute;
 		  top: 0px;
 		  bottom: 0px;
@@ -86,14 +86,14 @@
 		  right: 0px;
 	 	  margin: auto;
 	}
-	.glitch span:first-child {
+	.shapa span:first-child {
 	  animation: glitch 500ms infinite;
 	  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
 	  transform: translate(-0.04em, -0.03em);
 	  opacity: 0.75;
 	}
 
-	.glitch span:last-child {
+	.shapa span:last-child {
 	  animation: glitch 375ms infinite;
 	  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
 	  transform: translate(0.04em, 0.03em);
