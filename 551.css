@@ -18,7 +18,7 @@
 			color:DarkSlateGray;
 			margin-left: 30px;
 		}
-	.aaae{
+	.cutlines{
 			color:gray;
 			margin-left: 25px;
 			size: 1px;
@@ -26,7 +26,7 @@
 			width:50%;
 			
 		}
-	.aaaf{
+	.lilmenu{
 			color:DimGray;
 			margin-left: 230px;
 			font-size: 18px;
@@ -131,93 +131,6 @@
 	  }
 	}
 
-
-
-	.last {
-		background-color: Crimson; 
-		border: none;
-		padding: 16px 100px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 20px;
-		margin: 40px 50px;
-		-webkit-transition-duration: 0.4s; 
-		transition-duration: 0.4s;
-		cursor: pointer;
-		border-radius:10px;
-		
-	}
-
-	.last {
-		background-color: Crimson; 
-		color: ghostwhite; 
-		border: 2px solid Crimson;
-	}
-
-	.last:hover {
-		background-color: ghostwhite;
-		color: Crimson;
-	}
-
-	.sonow {
-		background-color: CadetBlue; 
-		border: none;
-		padding: 16px 100px;
-		text-align: center;
-		text-decoration: none;
-		displayinline-block;
-		font-size: 20px;
-		margin: 140px 50px;
-		-webkit-transition-duration: 0.4s; 
-		transition-duration: 0.4s;
-		cursor: pointer;
-		border-radius:10px;
-	}
-
-	.sonow {
-		background-color: CadetBlue; 
-		color: ghostwhite; 
-		border: 2px solid CadetBlue;
-	}
-
-	.sonow:hover {
-		background-color: ghostwhite;
-		color: CadetBlue;
-	}
-
-
-	.and {
-		background-color: ghostwhite; 
-		
-		border: none;
-		padding: 16px 100px;
-		text-align: center;
-		text-decoration: none;
-		display: inline-block;
-		font-size: 20px;
-		margin: 40px 50px;
-		-webkit-transition-duration: 0.4s; 
-		transition-duration: 0.4s;
-		cursor: pointer;
-		border-radius:10px;
-	}
-
-	.and {
-		background-color: ghostwhite; 
-		color: Orange; 
-		border: 2px solid orange;
-	}
-
-	.and:hover {
-		background-color: Orange;
-		color: ghostwhite;
-	}
-
-
-
-
-	
 
 	.login{
 		width: 650px;
@@ -377,6 +290,86 @@
 
 	}
 
+	.last {
+		background-color: Crimson; 
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 40px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+		
+	}
+
+	.last {
+		background-color: Crimson; 
+		color: ghostwhite; 
+		border: 2px solid Crimson;
+	}
+
+	.last:hover {
+		background-color: ghostwhite;
+		color: Crimson;
+	}
+
+	.sonow {
+		background-color: CadetBlue; 
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		displayinline-block;
+		font-size: 20px;
+		margin: 140px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+	}
+
+	.sonow {
+		background-color: CadetBlue; 
+		color: ghostwhite; 
+		border: 2px solid CadetBlue;
+	}
+
+	.sonow:hover {
+		background-color: ghostwhite;
+		color: CadetBlue;
+	}
+
+
+	.and {
+		background-color: ghostwhite; 
+		
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 40px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+	}
+
+	.and {
+		background-color: ghostwhite; 
+		color: Orange; 
+		border: 2px solid orange;
+	}
+
+	.and:hover {
+		background-color: Orange;
+		color: ghostwhite;
+	}
 
 	
 
