@@ -1,0 +1,384 @@
+	.aaab{
+			align=center;
+			background-color:black;
+		}
+	.aaac img{
+			float: right;
+			margin-right: 100px;
+			width: 338px;
+		}
+	.aaac p{
+			width: 700px;
+			height: 500px;
+			color: DimGray;
+			overflow: hidden;
+			margin-left: 30px;
+	}
+	.aaad{
+			color:DarkSlateGray;
+			margin-left: 30px;
+		}
+	.aaae{
+			color:gray;
+			margin-left: 25px;
+			size: 1px;
+			align=left;
+			width:50%;
+			
+		}
+	.aaaf{
+			color:DimGray;
+			margin-left: 230px;
+			font-size: 18px;
+			
+		}
+
+	table.box{
+		width: 100%;
+		margin: auto;
+	}
+	table.box td{
+		text-align: center;
+	}
+
+	.hidetogglebtn{
+		border: 1px LightSlateGray solid;
+		background-color: ghostwhite;
+		width: 150px;
+		border-radius: 50% 20% / 10% 40%;
+		cursor: pointer;
+	}
+
+	.par{
+		height: 30px;
+		line-height:30px;
+		overflow: hidden;
+	
+	}
+	.par .show:hover{
+		padding-top:30px;
+	}
+	.par .hover-show{
+		margin-top:-60px;
+	}
+
+
+
+
+	.glitch {
+	
+	  font-size: 5rem;
+	  font-weight: bold;
+	  font-family:Brush Script MT;
+	  position: relative;
+	  height: 40px;
+	  top: 0px;
+	  text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+		0.025em 0.04em 0 #fffc00;
+	  animation: glitch 725ms infinite;
+	}
+
+	.glitch span {
+		  position: absolute;
+		  top: 0px;
+		  bottom: 0px;
+		  left: 0px;
+		  right: 0px;
+	 	  margin: auto;
+	}
+	.glitch span:first-child {
+	  animation: glitch 500ms infinite;
+	  clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+	  transform: translate(-0.04em, -0.03em);
+	  opacity: 0.75;
+	}
+
+	.glitch span:last-child {
+	  animation: glitch 375ms infinite;
+	  clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+	  transform: translate(0.04em, 0.03em);
+	  opacity: 0.75;
+	}
+
+	@keyframes glitch {
+	  0% {
+		text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+		  0.025em 0.04em 0 #fffc00;
+	  }
+	  15% {
+		text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+		  0.025em 0.04em 0 #fffc00;
+	  }
+	  16% {
+		text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+		  -0.05em -0.05em 0 #fffc00;
+	  }
+	  49% {
+		text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+		  -0.05em -0.05em 0 #fffc00;
+	  }
+	  50% {
+		text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+		  0 -0.04em 0 #fffc00;
+	  }
+	  99% {
+		text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+		  0 -0.04em 0 #fffc00;
+	  }
+	  100% {
+		text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+		  -0.04em -0.025em 0 #fffc00;
+	  }
+	}
+
+
+
+	.last {
+		background-color: Crimson; 
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 40px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+		
+	}
+
+	.last {
+		background-color: Crimson; 
+		color: ghostwhite; 
+		border: 2px solid Crimson;
+	}
+
+	.last:hover {
+		background-color: ghostwhite;
+		color: Crimson;
+	}
+
+	.sonow {
+		background-color: CadetBlue; 
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		displayinline-block;
+		font-size: 20px;
+		margin: 140px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+	}
+
+	.sonow {
+		background-color: CadetBlue; 
+		color: ghostwhite; 
+		border: 2px solid CadetBlue;
+	}
+
+	.sonow:hover {
+		background-color: ghostwhite;
+		color: CadetBlue;
+	}
+
+
+	.and {
+		background-color: ghostwhite; 
+		
+		border: none;
+		padding: 16px 100px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 20px;
+		margin: 40px 50px;
+		-webkit-transition-duration: 0.4s; 
+		transition-duration: 0.4s;
+		cursor: pointer;
+		border-radius:10px;
+	}
+
+	.and {
+		background-color: ghostwhite; 
+		color: Orange; 
+		border: 2px solid orange;
+	}
+
+	.and:hover {
+		background-color: Orange;
+		color: ghostwhite;
+	}
+
+
+
+
+	
+
+.login{
+	width: 650px;
+	position: relative;
+	margin-top: 50px;
+	margin-left:25px;
+}
+.login input{
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background: none;
+}
+#aa1:focus{
+		border-color:steelblue;
+		color:black;
+	}
+.login label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #000;
+	font-size: 18px;
+	pointer-events: none;
+	transition: all 0.3s;
+}
+
+.login input:focus + label,
+.login input:valid + label{
+	font-size: 15px;
+	top: -20px;
+	color: steelblue;
+	
+}
+
+
+
+
+
+.ogin{
+	width: 650px;
+	position: relative;
+	margin-top: 50px;
+	margin-left:25px;
+}
+.ogin input{
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background: none;
+}
+#aa2:focus{
+		border-color:green;
+		color:black;
+	}
+.ogin label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #000;
+	font-size: 18px;
+	pointer-events: none;
+	transition: all 0.3s;
+}
+
+.ogin input:focus + label,
+.ogin input:valid + label{
+	font-size: 15px;
+	top: -20px;
+	color: green;
+	
+}
+
+
+.gin{
+	width: 650px;
+	position: relative;
+	margin-top: 50px;
+	margin-left:25px;
+}
+.gin input{
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background: none;
+}
+#aa3:focus{
+		border-color:hotpink;
+		color:black;
+	}
+.gin label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #000;
+	font-size: 18px;
+	pointer-events: none;
+	transition: all 0.3s;
+}
+
+.gin input:focus + label,
+.gin input:valid + label{
+	font-size: 15px;
+	top: -20px;
+	color: hotpink;
+	
+}
+
+
+.in{
+	width: 650px;
+	position: relative;
+	margin-top: 50px;
+	margin-left:25px;
+}
+.in input{
+	outline: none;
+	border: none;
+	width: 100%;
+	padding: 10px 0;
+	color: #000;
+	font-size: 20px;
+	border-bottom: 1px solid black;
+	background: none;
+}
+#aa4:focus{
+		border-color:orange;
+		color:black;
+	}
+.in label{
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: #000;
+	font-size: 18px;
+	pointer-events: none;
+	transition: all 0.3s;
+}
+
+.in input:focus + label,
+.in input:valid + label{
+	font-size: 15px;
+	top: -20px;
+	color: orange;
+	
+}
+
+
+.pic{overflow:hidden;}
+.pic img{transform:scale(1,1);transition: all 0.5s ease-out;}
+.pic img:hover{transform:scale(1.2,1.2);}
+
