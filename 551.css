@@ -132,13 +132,13 @@
 	}
 
 
-	.login{
+	.nice1{
 		width: 650px;
 		position: relative;
 		margin-top: 50px;
 		margin-left:25px;
 	}
-	.login input{
+	.nice1 input{
 		outline: none;
 		border: none;
 		width: 100%;
@@ -152,7 +152,7 @@
 			border-color:steelblue;
 			color:black;
 		}
-	.login label{
+	.nice1 label{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -162,8 +162,8 @@
 		transition: all 0.3s;
 	}
 
-	.login input:focus + label,
-	.login input:valid + label{
+	.nice1 input:focus + label,
+	.nice1 input:valid + label{
 		font-size: 15px;
 		top: -20px;
 		color: steelblue;
@@ -174,13 +174,13 @@
 
 
 
-	.ogin{
+	.nice2{
 		width: 650px;
 		position: relative;
 		margin-top: 50px;
 		margin-left:25px;
 	}
-	.ogin input{
+	.nice2 input{
 		outline: none;
 		border: none;
 		width: 100%;
@@ -194,7 +194,7 @@
 			border-color:green;
 			color:black;
 		}
-	.ogin label{
+	.nice2 label{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -204,8 +204,8 @@
 		transition: all 0.3s;
 	}
 
-	.ogin input:focus + label,
-	.ogin input:valid + label{
+	.nice2 input:focus + label,
+	.nice2 input:valid + label{
 		font-size: 15px;
 		top: -20px;
 		color: green;
@@ -213,13 +213,13 @@
 	}
 
 
-	.gin{
+	.nice3{
 		width: 650px;
 		position: relative;
 		margin-top: 50px;
 		margin-left:25px;
 	}
-	.gin input{
+	.nice3 input{
 		outline: none;
 		border: none;
 		width: 100%;
@@ -233,7 +233,7 @@
 			border-color:hotpink;
 			color:black;
 		}
-	.gin label{
+	.nice3 label{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -243,8 +243,8 @@
 		transition: all 0.3s;
 	}
 
-	.gin input:focus + label,
-	.gin input:valid + label{
+	.nice3 input:focus + label,
+	.nice3 input:valid + label{
 		font-size: 15px;
 		top: -20px;
 		color: hotpink;
@@ -252,13 +252,13 @@
 	}
 
 
-	.in{
+	.nice4{
 		width: 650px;
 		position: relative;
 		margin-top: 50px;
 		margin-left:25px;
 	}
-	.in input{
+	.nice4 input{
 		outline: none;
 		border: none;
 		width: 100%;
@@ -272,7 +272,7 @@
 			border-color:orange;
 			color:black;
 		}
-	.in label{
+	.nice4 label{
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -282,8 +282,8 @@
 		transition: all 0.3s;
 	}
 
-	.in input:focus + label,
-	.in input:valid + label{
+	.nice4 input:focus + label,
+	.nice4 input:valid + label{
 		font-size: 15px;
 		top: -20px;
 		color: orange;
