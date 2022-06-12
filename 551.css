@@ -1,18 +1,20 @@
 	.pic{overflow:hidden;}
 	.pic img{transform:scale(1,1);transition: all 0.5s ease-out;}
 	.pic img:hover{transform:scale(1.2,1.2);}
-	
 	.bgstory img{
-			float: right;
-			margin-right: 100px;
-			width: 338px;
-		}
-	.bgstory p{
-			width: 700px;
-			height: 500px;
-			color: DimGray;
-			overflow: hidden;
-			margin-left: 30px;
+		width: 358px;
+		margin-left: 80px;
+		
+		 
+		
+	}
+	.intro{
+		width: 700px;
+		color:Dimgray;
+	}
+	.bgstory{
+		
+		margin-left: 30px;
 	}
 	.liltitles{
 			color:DarkSlateGray;
